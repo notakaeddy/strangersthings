@@ -1,0 +1,114 @@
+html {
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 95vw;
+  background-color: rgb(175, 175, 175);
+  color: black;
+}
+
+.App {
+  background-color: rgb(231, 217, 217);
+}
+
+.Homepage,
+.PostForm,
+.Register,
+.Login,
+.Profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.PostForm,
+.Login,
+.Register,
+.Profile {
+  padding-bottom: 75px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.PostsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 95vw;
+}
+
+.Posts {
+  width: 51vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: outset;
+  margin-bottom: 25px;
+}
+
+.NavBarBody {
+  background-color: rgb(6, 91, 175);
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.NavBarTitle {
+  font-size: 1.75rem;
+  padding-left: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.NavBarTitle:hover {
+  text-decoration: underline;
+}
+
+.NavBarMenuItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+  padding-right: 25px;
+}
+
+.NavLink {
+  color: white;
+  text-decoration: none;
+}
+
+.NavLink:hover {
+  text-decoration: underline;
+}
+
+hr {
+  width: 75vw;
+  align-items: center;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  margin-bottom: 25px;
+}
